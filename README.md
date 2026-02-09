@@ -9,17 +9,18 @@ Tujuan project adalah mengimplementasikan konsep OOP dalam Java, yaitu:
 - Polymorphism
 
 ## Struktur Project
+## 📂 Struktur Project
+- src/
+    - main/
+        - java/
+            - oopassignment/
+                - BaseModel.java        # SuperClass
+                - Encapsulation.java    # Encapsulation
+                - Inheritance.java      # Inheritance
+                - AbstractClass.java    # Abstraction
+                - Polymorphism.java     # Polymorphism
+                - Main.java             # Entry point
 
-src/
-└── main/
-└── java/
-└── oopassignment/
-    ├── BaseModel.java         # SuperClass
-    ├── Encapsulation.java
-    ├── Inheritance.java
-    ├── Abstract.java
-    ├── Polymorphism.java
-    └── Main.java              # Entry point
 
 
 ## Implementasi OOP
