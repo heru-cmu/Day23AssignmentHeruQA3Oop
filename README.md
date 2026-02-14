@@ -17,20 +17,20 @@ Tujuan project adalah mengimplementasikan konsep OOP dalam Java, yaitu:
                 - BaseModel.java        # SuperClass
                 - Encapsulation.java    # Encapsulation
                 - Inheritance.java      # Inheritance
-                - AbstractClass.java    # Abstraction
+                - AbstractClass.java    # Abstraction (sebelumnya Abstarct.java)
                 - Polymorphism.java     # Polymorphism
                 - Main.java             # Entry point
 
 
 
 ## Implementasi OOP
-- **Encapsulation**: `EncapsulationDemo` menggunakan getter & setter untuk mengakses data private.
-- **Inheritance**: `InheritanceDemo` mewarisi `BaseModel` dan menambahkan atribut `role`.
-- **Abstraction**: `AbstractDemo` berisi method abstrak `work()` yang diimplementasikan oleh `Worker`.
-- **Polymorphism**: `PolymorphismDemo` menunjukkan overloading (`greet`) dan overriding (`sound` pada `Dog` vs `Animal`).
+- **Encapsulation**: `Encapsulation` menggunakan getter & setter untuk mengakses data private.
+- **Inheritance**: `Inheritance` mewarisi `BaseModel` dan menambahkan atribut `role`.
+- **Abstraction**: `AbstractClass` berisi method abstrak `work()` yang diimplementasikan oleh `Worker`.
+- **Polymorphism**: `Polymorphism` menunjukkan overloading (`greet`) dan overriding (`sound` pada `Dog` vs `Animal`).
 
 ## Cara Menjalankan
-1. Buka project di **IntelliJ IDEA**.
+1. Buka project di **IntelliJ IDEA** atau terminal.
 2. Jalankan file `Main.java`.
 3. Output akan menampilkan hasil dari setiap konsep OOP.
 
